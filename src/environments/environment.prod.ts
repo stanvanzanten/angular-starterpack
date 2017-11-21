@@ -5,5 +5,5 @@
 
 export const environment = {
   production: true,
-  serverUrl: 'https://angulariandb.herokuapp.com/api/v1'
+  serverUrl: 'https://assassment.herokuapp.com/api/v1'
 };
