@@ -8,12 +8,14 @@
       <tr>
         <td>Nr</td>
         <td>Naam</td>
+        <td>Title</td>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let user of users, let i = index">
         <td>{{i+1}}</td>
         <td>{{user.name}}</td>
+        <td>{{user.title}}</td>
       </tr>
     </tbody>
   </table>
